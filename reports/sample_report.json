@@ -1,0 +1,265 @@
+{
+  "target": "example.com",
+  "generation_time": "2025-06-10T16:27:08.502038",
+  "summary": {
+    "target": "example.com",
+    "scope": "WHOIS, DNS",
+    "key_findings": [],
+    "statistics": {
+      "subdomains_found": 0,
+      "active_subdomains": 0,
+      "open_ports": 0,
+      "services_identified": 0,
+      "technologies_detected": 0,
+      "security_issues": 0
+    },
+    "risk_level": "Minimal",
+    "notable_services": [],
+    "technology_stack": []
+  },
+  "results": {
+    "whois": {
+      "registrar": "RESERVED-Internet Assigned Numbers Authority",
+      "creation_date": "1995-08-14T04:00:00",
+      "expiration_date": "2025-08-13T04:00:00",
+      "updated_date": "2024-08-14T07:01:34",
+      "name_servers": [
+        "a.iana-servers.net",
+        "b.iana-servers.net"
+      ],
+      "registrant": {},
+      "admin_contact": {},
+      "tech_contact": {},
+      "status": [
+        "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+        "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+        "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+      ],
+      "dnssec": "signedDelegation",
+      "raw_data": "   Domain Name: EXAMPLE.COM\r\n   Registry Domain ID: 2336799_DOMAIN_COM-VRSN\r\n   Registrar WHOIS Server: whois.iana.org\r\n   Registrar URL: http://res-dom.iana.org\r\n   Updated Date: 2024-08-14T07:01:34Z\r\n   Creation Date: 1995-08-14T04:00:00Z\r\n   Registry Expiry Date: 2025-08-13T04:00:00Z\r\n   Registrar: RESERVED-Internet Assigned Numbers Authority\r\n   Registrar IANA ID: 376\r\n   Registrar Abuse Contact Email:\r\n   Registrar Abuse Contact Phone:\r\n   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\r\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\r\n   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\r\n   Name Server: A.IANA-SERVERS.NET\r\n   Name Server: B.IANA-SERVERS.NET\r\n   DNSSEC: signedDelegation\r\n   DNSSEC DS Data: 370 13 2 BE74359954660069D5C63D200C39F5603827D7DD02B56F120EE9F3A86764247C\r\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\r\n>>> Last update of whois database: 2025-06-10T11:26:50Z <<<\r\n\r\nFor more information on Whois status codes, please visit https://icann.org/epp\r\n\r\nNOTICE: The expiration date displayed in this record is the date the\r\nregistrar's sponsorship of the domain name registration in the registry is\r\ncurrently set to expire. This date does not necessarily reflect the expiration\r\ndate of the domain name registrant's agreement with the sponsoring\r\nregistrar.  Users may consult the sponsoring registrar's Whois database to\r\nview the registrar's reported date of expiration for this registration.\r\n\r\nTERMS OF USE: You are not authorized to access or query our Whois\r\ndatabase through the use of electronic processes that are high-volume and\r\nautomated except as reasonably necessary to register domain names or\r\nmodify existing registrations; the Data in VeriSign Global Registry\r\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\r\ninformation purposes only, and to assist persons in obtaining information\r\nabout or related to a domain name registration record. VeriSign does not\r\nguarantee its accuracy. By submitting a Whois query, you agree to abide\r\nby the following terms of use: You agree that you may use this Data only\r\nfor lawful purposes and that under no circumstances will you use this Data\r\nto: (1) allow, enable, or otherwise support the transmission of mass\r\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\r\nor facsimile; or (2) enable high volume, automated, electronic processes\r\nthat apply to VeriSign (or its computer systems). The compilation,\r\nrepackaging, dissemination or other use of this Data is expressly\r\nprohibited without the prior written consent of VeriSign. You agree not to\r\nuse electronic processes that are automated and high-volume to access or\r\nquery the Whois database except as reasonably necessary to register\r\ndomain names or modify existing registrations. VeriSign reserves the right\r\nto restrict your access to the Whois database in its sole discretion to ensure\r\noperational stability.  VeriSign may restrict or terminate your access to the\r\nWhois database for failure to abide by these terms of use. VeriSign\r\nreserves the right to modify these terms at any time.\r\n\r\nThe Registry database contains ONLY .COM, .NET, .EDU domains and\r\nRegistrars.\r\n% IANA WHOIS server\n% for more information on IANA, visit http://www.iana.org\n% This query returned 1 object\n\ndomain:       EXAMPLE.COM\n\norganisation: Internet Assigned Numbers Authority\n\ncreated:      1992-01-01\nsource:       IANA\n\n",
+      "timestamp": "2025-06-10T16:27:02.096130",
+      "domain": "example.com"
+    },
+    "dns": {
+      "domain": "example.com",
+      "timestamp": "2025-06-10T16:27:02.108689",
+      "records": {
+        "A": [
+          {
+            "type": "A",
+            "ttl": 48,
+            "value": "96.7.128.198"
+          },
+          {
+            "type": "A",
+            "ttl": 48,
+            "value": "96.7.128.175"
+          },
+          {
+            "type": "A",
+            "ttl": 48,
+            "value": "23.215.0.136"
+          },
+          {
+            "type": "A",
+            "ttl": 48,
+            "value": "23.192.228.80"
+          },
+          {
+            "type": "A",
+            "ttl": 48,
+            "value": "23.192.228.84"
+          },
+          {
+            "type": "A",
+            "ttl": 48,
+            "value": "23.215.0.138"
+          }
+        ],
+        "AAAA": [
+          {
+            "type": "AAAA",
+            "ttl": 86,
+            "value": "2600:1406:3a00:21::173e:2e65"
+          },
+          {
+            "type": "AAAA",
+            "ttl": 86,
+            "value": "2600:1408:ec00:36::1736:7f24"
+          },
+          {
+            "type": "AAAA",
+            "ttl": 86,
+            "value": "2600:1406:bc00:53::b81e:94c8"
+          },
+          {
+            "type": "AAAA",
+            "ttl": 86,
+            "value": "2600:1406:bc00:53::b81e:94ce"
+          },
+          {
+            "type": "AAAA",
+            "ttl": 86,
+            "value": "2600:1408:ec00:36::1736:7f31"
+          },
+          {
+            "type": "AAAA",
+            "ttl": 86,
+            "value": "2600:1406:3a00:21::173e:2e66"
+          }
+        ],
+        "MX": [
+          {
+            "type": "MX",
+            "ttl": 5786,
+            "value": "0 ",
+            "priority": 0,
+            "exchange": ""
+          }
+        ],
+        "NS": [
+          {
+            "type": "NS",
+            "ttl": 20448,
+            "value": "b.iana-servers.net"
+          },
+          {
+            "type": "NS",
+            "ttl": 20448,
+            "value": "a.iana-servers.net"
+          }
+        ],
+        "TXT": [
+          {
+            "type": "TXT",
+            "ttl": 6016,
+            "value": "\"_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9\"",
+            "text": "_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9"
+          },
+          {
+            "type": "TXT",
+            "ttl": 6016,
+            "value": "\"v=spf1 -all\"",
+            "text": "v=spf1 -all"
+          }
+        ],
+        "SOA": [
+          {
+            "type": "SOA",
+            "ttl": 3600,
+            "value": "ns.icann.org. noc.dns.icann.org. 2025011674 7200 3600 1209600 3600",
+            "mname": "ns.icann.org",
+            "rname": "noc.dns.icann.org",
+            "serial": 2025011674,
+            "refresh": 7200,
+            "retry": 3600,
+            "expire": 1209600,
+            "minimum": 3600
+          }
+        ]
+      },
+      "nameservers": [
+        "b.iana-servers.net",
+        "a.iana-servers.net"
+      ],
+      "mail_servers": [
+        {
+          "hostname": "",
+          "priority": 0,
+          "ttl": 5786
+        }
+      ],
+      "ip_addresses": [
+        "96.7.128.198",
+        "96.7.128.175",
+        "23.215.0.136",
+        "23.192.228.80",
+        "23.192.228.84",
+        "23.215.0.138",
+        "2600:1406:3a00:21::173e:2e65",
+        "2600:1408:ec00:36::1736:7f24",
+        "2600:1406:bc00:53::b81e:94c8",
+        "2600:1406:bc00:53::b81e:94ce",
+        "2600:1408:ec00:36::1736:7f31",
+        "2600:1406:3a00:21::173e:2e66"
+      ],
+      "reverse_dns": {
+        "96.7.128.198": "a96-7-128-198.deploy.static.akamaitechnologies.com",
+        "96.7.128.175": "a96-7-128-175.deploy.static.akamaitechnologies.com",
+        "23.215.0.136": "a23-215-0-136.deploy.static.akamaitechnologies.com",
+        "23.192.228.80": "a23-192-228-80.deploy.static.akamaitechnologies.com",
+        "23.192.228.84": "a23-192-228-84.deploy.static.akamaitechnologies.com",
+        "23.215.0.138": "a23-215-0-138.deploy.static.akamaitechnologies.com",
+        "2600:1406:3a00:21::173e:2e65": "g2600-1406-3a00-0021-0000-0000-173e-2e65.deploy.static.akamaitechnologies.com",
+        "2600:1408:ec00:36::1736:7f24": "g2600-1408-ec00-0036-0000-0000-1736-7f24.deploy.static.akamaitechnologies.com",
+        "2600:1406:bc00:53::b81e:94c8": "g2600-1406-bc00-0053-0000-0000-b81e-94c8.deploy.static.akamaitechnologies.com",
+        "2600:1406:bc00:53::b81e:94ce": "g2600-1406-bc00-0053-0000-0000-b81e-94ce.deploy.static.akamaitechnologies.com",
+        "2600:1408:ec00:36::1736:7f31": "g2600-1408-ec00-0036-0000-0000-1736-7f31.deploy.static.akamaitechnologies.com",
+        "2600:1406:3a00:21::173e:2e66": "g2600-1406-3a00-0021-0000-0000-173e-2e66.deploy.static.akamaitechnologies.com"
+      },
+      "zone_transfer": {
+        "vulnerable": false,
+        "nameservers_tested": [
+          "b.iana-servers.net",
+          "a.iana-servers.net"
+        ],
+        "successful_transfers": [],
+        "errors": []
+      },
+      "dns_security": {
+        "dnssec_enabled": true,
+        "dnskey_records": [
+          {
+            "type": "DNSKEY",
+            "ttl": 3600,
+            "value": "256 3 13 voi39nSWvhj+ONVFGAx0a7JQ9mdQz2KD VxxshmVdfI3ffYaq7VSXCTYU8o0EJrOZ B+pEBbwUEetLPIZg5ylcwA=="
+          },
+          {
+            "type": "DNSKEY",
+            "ttl": 3600,
+            "value": "256 3 13 bqwx9AZVDIwJxfcJEALNo0Rn9vZIXQIA jp2bn9WK86KOJeRFB+L3ojCh8famqBCS G6CPRVp6nNCPnS28vV5R7Q=="
+          },
+          {
+            "type": "DNSKEY",
+            "ttl": 3600,
+            "value": "257 3 13 kXKkvWU3vGYfTJGl3qBd4qhiWp5aRs7Y tkCJxD2d+t7KXqwahww5IgJtxJT2yFIt lggazyfXqJEVOmMJ3qT0tQ=="
+          }
+        ],
+        "ds_records": [
+          {
+            "type": "DS",
+            "ttl": 8239,
+            "value": "370 13 2 be74359954660069d5c63d200c39f5603827d7dd02b56f120ee9f3a86764247c"
+          }
+        ],
+        "nsec_records": [],
+        "caa_records": []
+      }
+    }
+  },
+  "security_analysis": {
+    "overall_score": 100,
+    "findings": [],
+    "vulnerabilities": [],
+    "good_practices": [
+      "DNSSEC is properly configured"
+    ],
+    "recommendations_count": 0
+  },
+  "recommendations": [
+    {
+      "priority": "Medium",
+      "category": "General Security",
+      "title": "Regular Security Assessments",
+      "description": "Conduct regular security assessments and penetration testing",
+      "implementation": "Schedule quarterly security assessments and implement continuous monitoring"
+    },
+    {
+      "priority": "Medium",
+      "category": "General Security",
+      "title": "Keep Software Updated",
+      "description": "Maintain current versions of all software and apply security patches promptly",
+      "implementation": "Implement automated patching where possible and maintain an inventory of all software versions"
+    }
+  ]
+}

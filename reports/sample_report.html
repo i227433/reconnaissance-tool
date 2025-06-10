@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconnaissance Report - example.com</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 30px; }
+        .header h1 { color: #2c3e50; margin-bottom: 10px; }
+        .meta-info { background: #ecf0f1; padding: 15px; border-radius: 5px; margin-bottom: 30px; }
+        .section { margin-bottom: 30px; }
+        .section h2 { color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .section h3 { color: #7f8c8d; margin-top: 20px; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; }
+        .stat-card { background: #f8f9fa; padding: 15px; border-radius: 5px; text-align: center; }
+        .stat-number { font-size: 24px; font-weight: bold; color: #3498db; }
+        .stat-label { color: #7f8c8d; font-size: 14px; }
+        .risk-badge { padding: 5px 10px; border-radius: 3px; color: white; font-weight: bold; }
+        .risk-high { background-color: #e74c3c; }
+        .risk-medium { background-color: #f39c12; }
+        .risk-low { background-color: #f1c40f; color: #2c3e50; }
+        .risk-minimal { background-color: #27ae60; }
+        .vulnerability { background: #fdf2f2; border-left: 4px solid #e74c3c; padding: 15px; margin: 10px 0; }
+        .finding { background: #fef9e7; border-left: 4px solid #f39c12; padding: 15px; margin: 10px 0; }
+        .good-practice { background: #eafaf1; border-left: 4px solid #27ae60; padding: 15px; margin: 10px 0; }
+        .recommendation { background: #f8f9fa; border: 1px solid #dee2e6; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        .priority-high { border-left: 4px solid #e74c3c; }
+        .priority-medium { border-left: 4px solid #f39c12; }
+        .priority-low { border-left: 4px solid #17a2b8; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 5px; }
+        .code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: monospace; }
+        .table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        .table th, .table td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
+        .table th { background-color: #f8f9fa; font-weight: bold; }
+        .footer { text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Reconnaissance Report</h1>
+            <h2>example.com</h2>
+        </div>
+        
+        <div class="meta-info">
+            <strong>Generated:</strong> 2025-06-10 16:27:08<br>
+            <strong>Scope:</strong> WHOIS, DNS<br>
+            <strong>Risk Level:</strong> <span class="risk-badge risk-minimal">Minimal</span>
+        </div>
+        
+        <div class="section">
+            <h2>Executive Summary</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Subdomains Found</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Active Subdomains</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Open Ports</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Security Issues</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100</div>
+                    <div class="stat-label">Security Score</div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <div class="section">
+            <h2>WHOIS Information</h2>
+            <table class="table">
+                <tr><th>Domain</th><td>example.com</td></tr>
+                <tr><th>Registrar</th><td>RESERVED-Internet Assigned Numbers Authority</td></tr>
+                <tr><th>Creation Date</th><td>1995-08-14T04:00:00</td></tr>
+                <tr><th>Expiration Date</th><td>2025-08-13T04:00:00</td></tr>
+                
+                <tr><th>Name Servers</th><td>a.iana-servers.net, b.iana-servers.net</td></tr>
+                
+            </table>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="section">
+            <h2>Security Analysis</h2>
+            <p><strong>Overall Security Score:</strong> 100/100</p>
+            
+            
+            
+            
+            
+            
+            <h3>Good Security Practices</h3>
+            
+            <div class="good-practice">✓ DNSSEC is properly configured</div>
+            
+            
+            
+            
+            <div class="good-practice">✓ No major security issues identified</div>
+            
+        </div>
+        
+        <div class="section">
+            <h2>Recommendations</h2>
+            
+            
+            <div class="recommendation priority-medium">
+                <strong>Regular Security Assessments</strong> (Medium Priority)<br>
+                <em>Category:</em> General Security<br>
+                <em>Description:</em> Conduct regular security assessments and penetration testing<br>
+                <em>Implementation:</em> Schedule quarterly security assessments and implement continuous monitoring
+            </div>
+            
+            <div class="recommendation priority-medium">
+                <strong>Keep Software Updated</strong> (Medium Priority)<br>
+                <em>Category:</em> General Security<br>
+                <em>Description:</em> Maintain current versions of all software and apply security patches promptly<br>
+                <em>Implementation:</em> Implement automated patching where possible and maintain an inventory of all software versions
+            </div>
+            
+            
+        </div>
+        
+        <div class="footer">
+            <p>Report generated by CyberRecon Tool | 2025-06-10 16:27:08</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-Reconnaissance Tool - Main Entry Point
-A comprehensive reconnaissance tool for penetration testing and security analysis.
+CyberRecon - Advanced Reconnaissance Tool
+A comprehensive reconnaissance tool for penetration testing and cybersecurity analysis.
 
-Author: Security Research Team
 Version: 1.0.0
 License: MIT
 """

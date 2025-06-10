@@ -1,24 +1,40 @@
 # CyberRecon - Advanced Reconnaissance Tool
 
-A comprehensive CLI-based reconnaissance tool designed for penetration testing and cybersecurity analysis. CyberRecon provides both passive and active reconnaissance capabilities with professional reporting features.
+<div align="center">
+
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey.svg)
+
+**A comprehensive, modular reconnaissance tool for cybersecurity professionals and penetration testers**
+
+[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Documentation](#documentation) • [Contributing](#contributing)
+
+</div>
 
 ## 🚀 Features
 
-### Passive Reconnaissance
-- **WHOIS Lookup**: Domain registration and ownership information
-- **DNS Enumeration**: Complete DNS record analysis (A, AAAA, MX, NS, TXT, SOA, CNAME)
-- **Subdomain Discovery**: API-based subdomain enumeration with multiple sources
+### 🔍 Passive Reconnaissance
+- **WHOIS Lookup**: Extract comprehensive domain registration information
+- **DNS Enumeration**: Query all record types (A, AAAA, MX, NS, TXT, SOA, CNAME)
+- **Subdomain Discovery**: Certificate Transparency logs, threat intelligence feeds
 
-### Active Reconnaissance
-- **Port Scanning**: Fast socket-based and nmap-wrapper scanning
-- **Banner Grabbing**: Protocol-specific service identification
-- **Technology Detection**: Web technology fingerprinting and CMS detection
+### 🎯 Active Reconnaissance
+- **Port Scanning**: Socket-based and Nmap integration
+- **Banner Grabbing**: Service identification and version detection
+- **Technology Detection**: Web framework and server fingerprinting
 
-### Reporting & Analysis
+### 📊 Reporting & Analysis
 - **Multiple Formats**: Text, HTML, and JSON reports
-- **Security Analysis**: Vulnerability indicators and risk assessment
-- **Executive Summary**: High-level findings for stakeholders
-- **Actionable Recommendations**: Specific security improvements
+- **Comprehensive Analysis**: Executive summaries and technical details
+- **Timestamped Results**: Complete audit trail with IP resolution
+
+### ⚡ Advanced Features
+- **Modular Architecture**: Independent module execution
+- **Parallel Processing**: Optimized performance with async operations
+- **Rate Limiting**: Respectful API usage with built-in throttling
+- **Error Resilience**: Graceful handling of network issues
+- **Docker Support**: Containerized deployment ready
 
 ## 📋 Requirements
 
