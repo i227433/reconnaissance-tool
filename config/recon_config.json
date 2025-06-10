@@ -1,0 +1,93 @@
+{
+    "general": {
+        "threads": 50,
+        "timeout": 5,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "rate_limit_delay": 1.0,
+        "max_retries": 3
+    },
+    "dns": {
+        "nameservers": [
+            "8.8.8.8",
+            "8.8.4.4",
+            "1.1.1.1"
+        ],
+        "record_types": [
+            "A",
+            "AAAA",
+            "MX",
+            "NS",
+            "TXT",
+            "CNAME",
+            "SOA"
+        ],
+        "timeout": 5
+    },
+    "port_scanning": {
+        "common_ports": [
+            21,
+            22,
+            23,
+            25,
+            53,
+            80,
+            110,
+            111,
+            135,
+            139,
+            143,
+            443,
+            993,
+            995,
+            1723,
+            3306,
+            3389,
+            5432,
+            5900,
+            8080
+        ],
+        "full_port_range": [
+            1,
+            65535
+        ],
+        "scan_type": "tcp",
+        "timeout": 3,
+        "threads": 100
+    },
+    "subdomain_enumeration": {
+        "wordlist_file": "config/subdomains.txt",
+        "use_crt_sh": true,
+        "use_otx": true,
+        "max_subdomains": 1000,
+        "verify_subdomains": true
+    },
+    "banner_grabbing": {
+        "timeout": 5,
+        "buffer_size": 1024,
+        "common_banners": [
+            "SSH",
+            "HTTP",
+            "FTP",
+            "SMTP",
+            "TELNET"
+        ]
+    },
+    "technology_detection": {
+        "check_headers": true,
+        "check_content": true,
+        "follow_redirects": true,
+        "max_redirects": 5
+    },
+    "apis": {
+        "crt_sh_url": "https://crt.sh/?q={domain}&output=json",
+        "otx_url": "https://otx.alienvault.com/api/v1/indicators/domain/{domain}/passive_dns",
+        "wappalyzer_url": "https://api.wappalyzer.com/lookup/v1/?url={url}",
+        "virustotal_url": "https://www.virustotal.com/vtapi/v2/domain/report"
+    },
+    "output": {
+        "reports_dir": "reports",
+        "logs_dir": "logs",
+        "include_timestamps": true,
+        "include_raw_data": false
+    }
+}

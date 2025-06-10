@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  cyberrecon:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cyberrecon:latest
+    container_name: cyberrecon-tool
+    volumes:
+      # Mount reports directory to persist outputs
+      - ./reports:/app/reports
+      # Mount logs directory for debugging
+      - ./logs:/app/logs
+      # Mount config directory for custom configurations
+      - ./config:/app/config:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=INFO
+    # Example command - override as needed
+    command: ["--help"]
+    networks:
+      - recon-net
+    # Uncomment for privileged port scanning
+    # privileged: true
+    # cap_add:
+    #   - NET_ADMIN
+    #   - NET_RAW
+
+  # Optional: Web interface service for future enhancement
+  cyberrecon-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cyberrecon:latest
+    container_name: cyberrecon-web
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./reports:/app/reports
+      - ./logs:/app/logs
+      - ./config:/app/config:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=INFO
+      - WEB_MODE=true
+    # Future web interface command
+    command: ["--web-server"]
+    networks:
+      - recon-net
+    profiles:
+      - web
+
+networks:
+  recon-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+
+volumes:
+  recon-reports:
+    driver: local
+  recon-logs:
+    driver: local
+  recon-config:
+    driver: local
